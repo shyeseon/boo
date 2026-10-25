@@ -1,0 +1,12 @@
+{
+  "name": "BOO! — 저주받은 할로윈 초대장",
+  "short_name": "BOO!",
+  "description": "친구에게 저주받은 할로윈 초대장을 보내는 Trick or Treat 공유 게임",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1a1025",
+  "theme_color": "#1a1025",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

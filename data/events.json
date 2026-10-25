@@ -1,0 +1,28 @@
+[
+  { "id": "candy",         "choice": "treat", "type": "gain",    "delta": 10,  "weight": 18, "art": "candy",    "title": "일반 사탕",        "text": "{from}이(가) 사탕 하나를 건넸다. 평범하다. 너무 평범하다." },
+  { "id": "gold",          "choice": "treat", "type": "gain",    "delta": 100, "weight": 4,  "art": "gold",     "title": "황금 사탕",        "text": "황금빛 사탕! {from}은(는) 이걸 줄 생각이 없었다." },
+  { "id": "double",        "choice": "treat", "type": "gain",    "delta": 30,  "weight": 8,  "art": "candy",    "title": "두 배 사탕",       "text": "사탕이 두 개! {from}이(가) 실수로 두 개를 줬다." },
+  { "id": "choco",         "choice": "treat", "type": "gain",    "delta": 15,  "weight": 9,  "art": "candy",    "title": "수제 초콜릿",      "text": "{from}이(가) 직접 만들었다는데, 의외로 먹을 만하다." },
+  { "id": "jelly",         "choice": "treat", "type": "gain",    "delta": 20,  "weight": 8,  "art": "candy",    "title": "지렁이 젤리",      "text": "꿈틀거리는 건 기분 탓이다. 아마도." },
+  { "id": "caramel",       "choice": "treat", "type": "gain",    "delta": 5,   "weight": 4,  "art": "candy",    "title": "눌어붙은 카라멜",  "text": "{from} 주머니에서 한 달 묵은 맛이 난다." },
+  { "id": "pumpkin_pie",   "choice": "treat", "type": "gain",    "delta": 25,  "weight": 4,  "art": "pumpkin",  "title": "호박 파이",        "text": "따끈한 파이. {from}이(가) 웬일로 사람 노릇을 했다." },
+  { "id": "cursed",        "choice": "treat", "type": "loss",    "delta": -20, "weight": 13, "art": "skull",    "title": "저주 사탕",        "text": "달콤한 줄 알았지? {from}의 저주가 담겨 있었다." },
+  { "id": "rotten",        "choice": "treat", "type": "loss",    "delta": -5,  "weight": 10, "art": "skull",    "title": "썩은 사탕",        "text": "작년 할로윈에 남은 사탕이다. {from}, 양심 어디 갔니." },
+  { "id": "toothache",     "choice": "treat", "type": "loss",    "delta": -10, "weight": 8,  "art": "skull",    "title": "충치 요정",        "text": "어금니가 시큰하다. 치료비는 {from} 앞으로." },
+  { "id": "spider_candy",  "choice": "treat", "type": "loss",    "delta": -15, "weight": 6,  "art": "spider",   "title": "거미 사탕",        "text": "포장을 까니 다리가 여덟 개. {from}의 취향이다." },
+  { "id": "empty_wrap",    "choice": "treat", "type": "loss",    "delta": -10, "weight": 4,  "art": "skull",    "title": "빈 껍질",          "text": "{from}이(가) 알맹이만 먹고 껍질을 포장했다." },
+  { "id": "mint",          "choice": "treat", "type": "loss",    "delta": -3,  "weight": 3,  "art": "skull",    "title": "치약 맛 사탕",     "text": "이건 사탕이 아니라 양치다. {from}의 저렴한 장난." },
+
+  { "id": "ghost",         "choice": "trick", "type": "loss",    "delta": -20, "weight": 11, "art": "ghost",    "title": "유령 습격",        "text": "BOO! {from}이(가) 보낸 유령이 사탕을 훔쳐 갔다." },
+  { "id": "pumpkin_bomb",  "choice": "trick", "type": "loss",    "delta": -30, "weight": 9,  "art": "pumpkin",  "title": "호박 폭탄",        "text": "{from}이(가) 심어 둔 호박이 터졌다. 사탕이 사방으로." },
+  { "id": "bat_swarm",     "choice": "trick", "type": "loss",    "delta": -10, "weight": 8,  "art": "bat",      "title": "박쥐 떼",          "text": "박쥐들이 머리카락을 노린다. 사탕도 몇 개 물어 갔다." },
+  { "id": "black_cat",     "choice": "trick", "type": "loss",    "delta": -15, "weight": 8,  "art": "cat",      "title": "검은 고양이",      "text": "고양이가 사탕 바구니를 엎었다. {from}이(가) 시킨 거다." },
+  { "id": "skeleton_prank","choice": "trick", "type": "loss",    "delta": -5,  "weight": 8,  "art": "skull",    "title": "해골의 덜그럭",    "text": "해골이 어깨를 톡톡. 놀라서 사탕을 흘렸다." },
+  { "id": "witch_gift",    "choice": "trick", "type": "gain",    "delta": 50,  "weight": 10, "art": "witch",    "title": "마녀의 반전 선물", "text": "장난을 골랐는데 선물이 왔다. 마녀는 변덕쟁이다." },
+  { "id": "candy_rain",    "choice": "trick", "type": "gain",    "delta": 25,  "weight": 10, "art": "candy",    "title": "사탕 소나기",      "text": "하늘에서 사탕이 쏟아진다. {from}의 창고가 털렸다." },
+  { "id": "lucky_ghost",   "choice": "trick", "type": "gain",    "delta": 15,  "weight": 8,  "art": "ghost",    "title": "착한 유령",        "text": "겁주러 왔다가 미안해서 사탕을 두고 갔다." },
+  { "id": "clumsy_thief",  "choice": "trick", "type": "gain",    "delta": 20,  "weight": 4,  "art": "skull",    "title": "서툰 도둑",        "text": "{from}이(가) 보낸 도둑이 제 사탕을 흘리고 도망갔다." },
+  { "id": "dracula",       "choice": "trick", "type": "mission", "delta": 40,  "weight": 11, "art": "mission",  "title": "드라큘라 미션",    "text": "15초 안에 유령 15마리를 잡아라. 실패하면 사탕 −10.", "mission": "ghost_tap", "fail_delta": -10 },
+  { "id": "zombie_dance",  "choice": "trick", "type": "mission", "delta": 30,  "weight": 9,  "art": "mission",  "title": "좀비 댄스",        "text": "10초 동안 화면을 50번 두드려라. 좀비처럼.", "mission": "tap_50", "fail_delta": 0 },
+  { "id": "mirror",        "choice": "trick", "type": "special", "delta": 0,   "weight": 8,  "art": "mirror",   "title": "거울의 저주",      "text": "장난이 {from}에게 되돌아갔다. 복수 링크를 보내면 {from}의 사탕이 −20.", "effect": "reflect" }
+]
