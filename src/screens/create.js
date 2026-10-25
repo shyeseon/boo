@@ -28,6 +28,7 @@ export function renderCreate({ app, toast }, revenge = null) {
           <button class="btn-kakao" id="share-kakao">💬 카카오톡으로 공유</button>
           <button class="btn-primary" id="share">📤 공유하기</button>
           <button class="btn-ghost" id="copy">📋 링크 복사</button>
+          <button class="btn-text" id="close-sheet">닫기</button>
         </div>
       </div>
     </section>
@@ -84,6 +85,9 @@ export function renderCreate({ app, toast }, revenge = null) {
     if (r === 'copied') toast('링크를 복사했어! 메신저에 붙여넣어 줘.');
     if (r === 'failed') toast('공유에 실패했어. 링크를 직접 복사해 줘.');
   });
+  const sheet = app.querySelector('#sheet');
+  app.querySelector('#close-sheet').addEventListener('click', () => { sheet.hidden = true; });
+  sheet.addEventListener('click', e => { if (e.target === sheet) sheet.hidden = true; }); // 바깥 영역 탭
   app.querySelector('#copy').addEventListener('click', async () => {
     if (!link) return;
     try {

@@ -90,6 +90,15 @@ body {
 }
 .btn-primary:active, .btn-ghost:active { transform: scale(0.96); }
 .btn-primary:disabled { opacity: 0.5; }
+.btn-text {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 8px 20px;
+}
 .btn-back {
   align-self: flex-start;
   background: none;
