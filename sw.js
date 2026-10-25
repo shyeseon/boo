@@ -1,5 +1,5 @@
 // 서비스 워커: 정적 자원 캐시만 (선택 사항)
-const CACHE = 'boo-v1';
+const CACHE = 'boo-v2';
 const ASSETS = [
   '.',
   'index.html',
@@ -21,6 +21,7 @@ const ASSETS = [
   'src/game/missions/ghostTap.js',
   'src/game/missions/tap50.js',
   'src/share/link.js',
+  'src/share/kakao.js',
   'src/share/card.js',
 ];
 

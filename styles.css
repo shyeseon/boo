@@ -196,16 +196,35 @@ body {
 @keyframes sheet-up { from { transform: translateY(100%); } }
 .sheet-body h2 { margin: 0; font-size: 20px; }
 .sheet-url {
+  font: inherit;
   font-size: 12px;
   color: var(--text-dim);
-  word-break: break-all;
   background: var(--bg-deep);
+  border: none;
+  outline: none;
   border-radius: 10px;
   padding: 10px;
   margin: 0;
+  width: 100%;
   max-width: 100%;
   user-select: all;
 }
+
+.btn-kakao {
+  font: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 28px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  background: #fee500;
+  color: #191919;
+  transition: transform 0.1s;
+}
+.btn-kakao:active { transform: scale(0.96); }
 
 /* ── PLAY ── */
 .play { position: relative; overflow: hidden; }
