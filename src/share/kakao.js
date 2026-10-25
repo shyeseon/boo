@@ -4,7 +4,7 @@
 //   1. https://developers.kakao.com → 내 애플리케이션 → 애플리케이션 추가
 //   2. 앱 설정 > 플랫폼 > Web 에 사이트 도메인 등록: https://shyeseon.github.io
 //   3. 앱 설정 > 앱 키 > JavaScript 키를 아래에 붙여넣기
-const KAKAO_JS_KEY = '';
+const KAKAO_JS_KEY = 'ad2d0fe6ad0decdf586e7a621364e2d6';
 
 const OG_IMAGE = 'https://shyeseon.github.io/boo/assets/og.png';
 
