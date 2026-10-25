@@ -172,6 +172,7 @@ body {
 }
 #nickname:focus { border-color: var(--orange); }
 
+.sheet[hidden] { display: none; }
 .sheet {
   position: fixed;
   inset: 0;
